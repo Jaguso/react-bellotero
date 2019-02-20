@@ -9,24 +9,34 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <p>Home</p>
+              <a href="#" className="nav-link">
+                Home
+              </a>
             </li>
             <li className="nav-item">
-              <a>
+              <a href="#" className="nav-link">
                 Solutions
               </a>
             </li>
             <li className="nav-item">
-              Stories
+              <a href="#" className="nav-link">
+                Stories
+              </a>
             </li>
             <li className="nav-item">
-              Solutions
+              <a href="#" className="nav-link">
+                Partners
+              </a>
             </li>
             <li className="nav-item">
-              Solutions
+              <a href="#" className="nav-link">
+                About
+              </a>
             </li>
             <li className="nav-item">
-              Solutions
+              <a href="#" className="nav-link">
+                Blog
+              </a>
             </li>
           </ul>
         </div>
