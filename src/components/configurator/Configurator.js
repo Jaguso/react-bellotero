@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {getPageTwo} from '../../services';
 import Calculator from '../calculator/Calculator';
-
+import './Configurator.css';
 
 class Configurator extends Component {
 
@@ -25,7 +25,7 @@ class Configurator extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container  my-container-two">
         <div className="row">
           <div className="col">
             <h3>{this.state.title}</h3>
