@@ -6,7 +6,9 @@ class Calculator extends Component {
     super();
     this.state = {
       ingredients: '',
-      employees: ''
+      employees: '',
+      foodSaving: '',
+      // anualSaving: ''
     }
   }
 
@@ -16,7 +18,16 @@ class Calculator extends Component {
     this.setState({[name]: value})
   }
 
+  calculateFoodSaving() {
+    return parseInt(this.state.ingredients) * 0.3 
+  }
+
+  calculateAnualSaving(foodCost) {
+    return parseInt(this.state.employees) * 1337 + foodCost 
+  }
+
   render() {
+
     return (
       <div className="container">
         <div className="row">
@@ -51,11 +62,12 @@ class Calculator extends Component {
 
         <div className="row justify-content-center">
           <div className="col">
-            <h3>something</h3>
+            {this.state.ingredients ? <h3>$ {this.calculateFoodSaving()}</h3> : <h3>$</h3> }
+            {/* <h3>${calculateFoodSaving()}</h3> */}
             <small>Estimated cost food savings</small>
           </div>
           <div className="col">
-            <h3>something</h3>
+            {this.state.ingredients && this.state.employees ? <h3>$ {this.calculateAnualSaving(this.calculateFoodSaving())}</h3> : <h3>$</h3> }
             <small>Your estimated anual savings</small>
           </div>
         </div>

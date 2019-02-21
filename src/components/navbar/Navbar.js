@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './Navbar.css';
 
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand navbar-light bg-light">
+      <nav className="navbar navbar-expand navbar-light">
         <a href="#" className="navbar-brand">wpeof</a>
 
         <div className="collapse navbar-collapse">
