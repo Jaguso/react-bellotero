@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-
 import {getPageOne} from '../../services';
+import Card from '../card/Card';
+import './Testimonial.css'
 
 class Testimonial extends Component {
 
@@ -27,14 +28,17 @@ class Testimonial extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="col">
-
+      <div className="container my-container">
+        <div className="row">
+          <h3>{this.state.title}</h3>
         </div>
-        <div className="col">
-
+        <div className="row">
+          <Card
+            reviewsOne={this.state.reviewsOne}
+            reviewsTwo={this.state.reviewsTwo}
+          />
         </div>
-        
+
       </div>
     );
   }
