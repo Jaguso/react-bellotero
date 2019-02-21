@@ -14,13 +14,13 @@ class Card extends Component {
     this.setState({
       testimonialTrue: !this.state.testimonialTrue 
     })
-    console.log(this.state.testimonialTrue)
   }
 
 
   render() {
 
     const reviews = (this.state.testimonialTrue ? this.props.reviewsOne : this.props.reviewsTwo)
+    const fraction = (this.state.testimonialTrue ? '1/2' : '2/2')
 
     return(
       <div className="container">
@@ -28,20 +28,14 @@ class Card extends Component {
           <div className="col">
             <h3>{reviews.name}</h3>
             <small>{reviews.position}</small>
-          </div>
+          </div>  
           <div className="col">
             <p>"{reviews.comment}"</p>
-          </div>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col justify-content-end">
-            <button onClick={this.handleClick}>-</button>
-          </div>
-          <div className="col">
-            <button onClick={this.handleClick}>+</button>
-          </div>
-          <div className="col">
-            <p>info</p>
+            <div class="btn-group">
+              <button type="button" className="btn btn-secondary">{fraction}</button>
+              <button type="button" className="btn btn-secondary" onClick={this.handleClick}>Left</button>
+              <button type="button" className="btn btn-secondary" onClick={this.handleClick}>Right</button>
+            </div>
           </div>
         </div>
       </div>

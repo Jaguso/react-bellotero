@@ -1,5 +1,29 @@
 .my-container {
-    background-color: azure;
     height: 400px;
     margin: 100px;
+}
+
+.rectangle {
+    width: 389px;
+    height: 56px;
+    background-color: #071eb3;
+}
+
+.our-customers {
+    width: 381px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+}
+
+.container {
+    width: 1002px;
+    height: 254px;
+    background-color: #ffffff;
+    margin: 80px;
 }

@@ -21,22 +21,23 @@ class Testimonial extends Component {
         reviewsOne: response.data.slider.reviews[0],
         reviewsTwo: response.data.slider.reviews[1]
       })
-      console.log(response.data)
-      console.log(response.data.slider)
     });
   }
 
   render() {
     return (
       <div className="container my-container">
-        <div className="row">
-          <h3>{this.state.title}</h3>
+        <div className="row rectangle justify-content-center">
+          <h3 className="our-customers justify-content-center">{this.state.title}</h3>
         </div>
-        <div className="row">
+        <div className="row container">
           <Card
             reviewsOne={this.state.reviewsOne}
             reviewsTwo={this.state.reviewsTwo}
           />
+        </div>
+        <div className="row justify-content-center">
+          <button type="button" className="btn btn-link"><a href="/calculator">Go to calculator</a></button>
         </div>
 
       </div>

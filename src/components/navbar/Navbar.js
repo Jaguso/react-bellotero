@@ -5,12 +5,12 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand navbar-light">
-        <a href="#" className="navbar-brand">wpeof</a>
+        <a href="#" className="navbar-brand">Bellotero.io</a>
 
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="/" className="nav-link">
                 Home
               </a>
             </li>

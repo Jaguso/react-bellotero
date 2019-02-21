@@ -6,9 +6,7 @@ class Calculator extends Component {
     super();
     this.state = {
       ingredients: '',
-      employees: '',
-      foodSaving: '',
-      // anualSaving: ''
+      employees: ''
     }
   }
 
@@ -63,7 +61,6 @@ class Calculator extends Component {
         <div className="row justify-content-center">
           <div className="col">
             {this.state.ingredients ? <h3>$ {this.calculateFoodSaving()}</h3> : <h3>$</h3> }
-            {/* <h3>${calculateFoodSaving()}</h3> */}
             <small>Estimated cost food savings</small>
           </div>
           <div className="col">

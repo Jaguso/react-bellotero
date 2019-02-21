@@ -19,7 +19,6 @@ class Configurator extends Component {
         title: response.data.calculator.title,
         description: response.data.calculator.description
       })
-      console.log(this.state.calculator)
     });
   }
 
