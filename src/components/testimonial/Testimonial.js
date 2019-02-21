@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {getPageOne} from '../../services';
 import Card from '../card/Card';
-import './Testimonial.css'
+import {getPageOne} from '../../services';
+import './Testimonial.css';
 
 class Testimonial extends Component {
 
@@ -23,7 +23,7 @@ class Testimonial extends Component {
       })
       console.log(response.data)
       console.log(response.data.slider)
-    })
+    });
   }
 
   render() {

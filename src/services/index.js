@@ -4,4 +4,6 @@ const API_URL = "https://raw.githubusercontent.com/Bernabe-Felix/Bellotero/maste
 
 const getPageOne = () => axios.get(`${API_URL}/page1.json`);
 
-export { getPageOne };
+const getPageTwo = () => axios.get(`${API_URL}/page2.json`)
+
+export { getPageOne, getPageTwo };

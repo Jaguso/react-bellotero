@@ -14,7 +14,7 @@ class Routes extends Component {
           <Navbar/>
           <div className="contaiener">
             <Route exact path="/" component={Testimonial} />
-            <Route exact path="/config" component={Configurator} />
+            <Route exact path="/calculator" component={Configurator} />
           </div>
 
         </main>
