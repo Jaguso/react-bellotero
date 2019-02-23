@@ -1,3 +1,22 @@
-.my-container-two {
+.container {
     margin: 100px;
+}
+
+.title {
+    width: 300px;
+    height: 56px;
+    background-color: #071eb3;
+    color: #ffffff;
+}
+
+.text {
+    width: 349px;
+    height: 120px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #161616;
 }

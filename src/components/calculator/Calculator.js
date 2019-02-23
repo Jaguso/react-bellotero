@@ -12,7 +12,7 @@ class Calculator extends Component {
 
   onChangeInput = (event) => {
     const {name, value} = event.target
-    console.log("Valores: ", name, value)
+    // console.log("Valores: ", name, value)
     this.setState({[name]: value})
   }
 

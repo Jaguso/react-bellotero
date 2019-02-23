@@ -24,11 +24,11 @@ class Configurator extends Component {
 
   render() {
     return (
-      <div className="container  my-container-two">
+      <div className="container">
         <div className="row">
           <div className="col">
-            <h3>{this.state.title}</h3>
-            <p>{this.state.description}</p>
+            <h3 className="title">{this.state.title}</h3>
+            <p className="text">{this.state.description}</p>
           </div>
           <div className="col">
             <Calculator/>
