@@ -1,3 +1,36 @@
+.name {
+    color: #161616;
+    width: 158px;
+    height: 48px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.position {
+    width: 95px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a5a5a5;
+}
+
+.text {
+    width: 565px;
+    height: 180px;
+    /* font-family: Roboto; */
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #161616;
+}
+
 .btn-fraction {
     width: 120px;
     height: 56px;
@@ -7,6 +40,7 @@
     border-top: none;
     border-bottom: none;
     color: #ffffff;
+    font-size: 20px;
 }
 
 .btn-arrow {
@@ -15,4 +49,5 @@
     background-color: #071eb3;
     border: none;
     color: #ffffff;
+    font-size: 20px;
 }

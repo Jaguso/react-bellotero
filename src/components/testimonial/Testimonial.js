@@ -27,7 +27,7 @@ class Testimonial extends Component {
   render() {
     return (
       <div className="container my-container">
-        <div className="row rectangle justify-content-center">
+        <div className="row rectangle">
           <h3 className="our-customers text-center">{this.state.title}</h3>
         </div>
         <div className="row container">

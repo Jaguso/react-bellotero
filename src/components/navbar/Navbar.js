@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand navbar-light">
-        <a href="#" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           <img src={bellotero} alt="bellotero"/>
         </a>
 
