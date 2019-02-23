@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Card.css';
 
 class Card extends Component {
 
@@ -31,10 +32,10 @@ class Card extends Component {
           </div>  
           <div className="col">
             <p>"{reviews.comment}"</p>
-            <div class="btn-group">
-              <button type="button" className="btn btn-secondary">{fraction}</button>
-              <button type="button" className="btn btn-secondary" onClick={this.handleClick}>Left</button>
-              <button type="button" className="btn btn-secondary" onClick={this.handleClick}>Right</button>
+            <div className="btn-group">
+              <button type="button" className="btn-fraction">{fraction}</button>
+              <button type="button" className="btn-arrow" onClick={this.handleClick}>Left</button>
+              <button type="button" className="btn-arrow" onClick={this.handleClick}>Right</button>
             </div>
           </div>
         </div>

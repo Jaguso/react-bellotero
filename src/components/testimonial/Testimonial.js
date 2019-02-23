@@ -28,7 +28,7 @@ class Testimonial extends Component {
     return (
       <div className="container my-container">
         <div className="row rectangle justify-content-center">
-          <h3 className="our-customers justify-content-center">{this.state.title}</h3>
+          <h3 className="our-customers text-center">{this.state.title}</h3>
         </div>
         <div className="row container">
           <Card

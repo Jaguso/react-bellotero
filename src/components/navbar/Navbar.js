@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './Navbar.css';
+import bellotero from './bellotero/bellotero.png'
 
 class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand navbar-light">
-        <a href="#" className="navbar-brand">Bellotero.io</a>
+        <a href="#" className="navbar-brand">
+          <img src={bellotero} alt="bellotero"/>
+        </a>
 
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">

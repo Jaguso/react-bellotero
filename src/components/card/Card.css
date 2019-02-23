@@ -1,0 +1,18 @@
+.btn-fraction {
+    width: 120px;
+    height: 56px;
+    background-color: #071eb3;
+    border-right: solid 1px #f9faff;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    color: #ffffff;
+}
+
+.btn-arrow {
+    width: 56px;
+    height: 56px;
+    background-color: #071eb3;
+    border: none;
+    color: #ffffff;
+}
