@@ -34,8 +34,8 @@ class Card extends Component {
           </div>  
           <div className="col">
 
-            <div className="row">
-              <p className="text">"{reviews.comment}"</p>
+            <div className="row text-card">
+              <p>"{reviews.comment}"</p>
             </div>
 
             <div className="row buttons">

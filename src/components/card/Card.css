@@ -18,10 +18,9 @@
     color: #a5a5a5;
 }
 
-.text {
+.text-card {
     width: 565px;
     height: 180px;
-    /* font-family: Roboto; */
     font-size: 21px;
     font-weight: bold;
     font-style: normal;
@@ -53,5 +52,5 @@
 }
 
 .buttons {
-    padding: 50px 50px 50px 200px;
+    padding: 0px 50px 50px 400px;
 }

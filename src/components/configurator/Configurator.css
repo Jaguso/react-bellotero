@@ -3,10 +3,13 @@
 }
 
 .title {
-    width: 300px;
-    height: 56px;
+    width: 400px;
+    height: 80px;
     background-color: #071eb3;
     color: #ffffff;
+    /* text-align: center; */
+    padding: 100px;
+    /* vertical-align: center; */
 }
 
 .text {
@@ -19,4 +22,5 @@
     line-height: 1.5;
     letter-spacing: normal;
     color: #161616;
+    padding: 50px;
 }

@@ -23,12 +23,18 @@ class Configurator extends Component {
   }
 
   render() {
+    
+
     return (
       <div className="container">
         <div className="row">
           <div className="col">
-            <h3 className="title">{this.state.title}</h3>
-            <p className="text">{this.state.description}</p>
+            <div className="title-configurator">
+              <h3>{this.state.title}</h3>
+            </div>
+            <div className="text-configurator">
+              <p>{this.state.description}</p>
+            </div>
           </div>
           <div className="col">
             <Calculator/>
