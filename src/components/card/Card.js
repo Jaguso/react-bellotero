@@ -33,12 +33,19 @@ class Card extends Component {
             <small className="position">{reviews.position}</small>
           </div>  
           <div className="col">
-            <p className="text">"{reviews.comment}"</p>
-            <div className="btn-group">
-              <button type="button" className="btn-fraction">{fraction}</button>
-              <button type="button" className="btn-arrow" onClick={this.handleClick}>{leftArrow}</button>
-              <button type="button" className="btn-arrow" onClick={this.handleClick}>{rightArrow}</button>
+
+            <div className="row">
+              <p className="text">"{reviews.comment}"</p>
             </div>
+
+            <div className="row buttons">
+              <div className="btn-group">
+                <button type="button" className="btn-fraction">{fraction}</button>
+                <button type="button" className="btn-arrow" onClick={this.handleClick}>{leftArrow}</button>
+                <button type="button" className="btn-arrow" onClick={this.handleClick}>{rightArrow}</button>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

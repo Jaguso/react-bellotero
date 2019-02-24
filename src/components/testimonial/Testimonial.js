@@ -28,7 +28,7 @@ class Testimonial extends Component {
     return (
       <div className="container my-container">
         <div className="row rectangle">
-          <h3 className="our-customers text-center">{this.state.title}</h3>
+          <h3 className="our-customers">{this.state.title}</h3>
         </div>
         <div className="row container">
           <Card
@@ -36,7 +36,7 @@ class Testimonial extends Component {
             reviewsTwo={this.state.reviewsTwo}
           />
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center link-calc">
           <button type="button" className="btn btn-link"><a href="/calculator">Go to calculator</a></button>
         </div>
 
