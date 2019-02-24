@@ -30,11 +30,11 @@ class Configurator extends Component {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="title-configurator">
-              <h3>{titleLineOne}</h3>
+            <div className="title-l1-configurator">
+              <h3 className="title-l1-text">{titleLineOne}</h3>
             </div>
-            <div className="title-configurator">
-              <h3>{titleLineTwo}</h3>
+            <div className="title-l2-configurator">
+              <h3 className="title-l2-text">{titleLineTwo}</h3>
             </div>
             <div className="text-configurator">
               <p>{this.state.description}</p>
