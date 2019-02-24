@@ -1,0 +1,28 @@
+.row-calculator {
+    padding: 20px;
+}
+
+.monthly-ingredient {
+    width: 126px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #161616;
+}
+
+.full-time {
+    width: 157px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #161616;
+}
+

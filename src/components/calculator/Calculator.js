@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Calculator.css';
 
 class Calculator extends Component {
 
@@ -17,19 +18,19 @@ class Calculator extends Component {
   }
 
   calculateFoodSaving() {
-    return parseInt(this.state.ingredients) * 0.3 
+    return (parseInt(this.state.ingredients) * 0.3).toFixed(2); 
   }
 
   calculateAnualSaving(foodCost) {
-    return parseInt(this.state.employees) * 1337 + foodCost 
+    return parseInt(this.state.employees) * 1337 + foodCost; 
   }
 
   render() {
 
     return (
       <div className="container">
-        <div className="row">
-          <div className="col">
+        <div className="row row-calculator">
+          <div className="col monthly-ingredient">
             <p>Monthly ingredient spending</p>
           </div>
           <div className="col">
@@ -43,8 +44,8 @@ class Calculator extends Component {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col">
+        <div className="row row-calculator">
+          <div className="col full-time">
             <p>Full-time employees that process invoices</p>
           </div>
           <div className="col">
