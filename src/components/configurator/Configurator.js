@@ -23,14 +23,18 @@ class Configurator extends Component {
   }
 
   render() {
+    const titleLineOne = this.state.title.split(' ').slice(0, -1).join(' ')
+    const titleLineTwo = this.state.title.split(' ')[3]
     
-
     return (
       <div className="container">
         <div className="row">
           <div className="col">
             <div className="title-configurator">
-              <h3>{this.state.title}</h3>
+              <h3>{titleLineOne}</h3>
+            </div>
+            <div className="title-configurator">
+              <h3>{titleLineTwo}</h3>
             </div>
             <div className="text-configurator">
               <p>{this.state.description}</p>
