@@ -26,3 +26,32 @@
     color: #161616;
 }
 
+.results {
+    padding: 15px;
+}
+
+.food-saving {
+    width: 220px;
+    height: 72px;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #071eb3;
+}
+
+.subtext {
+    width: 179px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #161616;
+}
+

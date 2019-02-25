@@ -59,14 +59,14 @@ class Calculator extends Component {
           </div>
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row results">
           <div className="col">
-            {this.state.ingredients ? <h3>$ {this.calculateFoodSaving()}</h3> : <h3>$</h3> }
-            <small>Estimated cost food savings</small>
+            {this.state.ingredients ? <h3 className="food-saving">$ {this.calculateFoodSaving()}</h3> : <h3 className="food-saving">$</h3> }
+            <small className="subtext">Estimated cost food savings</small>
           </div>
           <div className="col">
-            {this.state.ingredients && this.state.employees ? <h3>$ {this.calculateAnualSaving(this.calculateFoodSaving())}</h3> : <h3>$</h3> }
-            <small>Your estimated anual savings</small>
+            {this.state.ingredients && this.state.employees ? <h3 className="food-saving">$ {this.calculateAnualSaving(this.calculateFoodSaving())}</h3> : <h3 className="food-saving">$</h3> }
+            <small className="subtext">Your estimated anual savings</small>
           </div>
         </div>
 
